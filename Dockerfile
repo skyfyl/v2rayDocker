@@ -28,7 +28,7 @@ ENV TZ ${TZ}
 ENV V2RAY_VERSION v4.25.1 
 ENV V2RAY_LOG_DIR /var/log/v2ray
 ENV V2RAY_CONFIG_DIR /etc/v2ray/
-ENV V2RAY_DOWNLOAD_URL https://glare.arukascloud.io/v2ray/v2ray-core/v2ray-linux-64.zip
+ENV V2RAY_DOWNLOAD_URL https://glare.now.sh/v2ray/v2ray-core/v2ray-linux-64.zip
 
 RUN apk upgrade --update \
     && apk add \
